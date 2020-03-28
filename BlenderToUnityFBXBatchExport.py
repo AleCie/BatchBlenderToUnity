@@ -42,7 +42,7 @@ for ob in obs:
     
     #restore location
     ob.location = location
-    #resotre rotation
+    #restore rotation
     bpy.ops.object.transform_apply( rotation = True )
   
 #reselect originally selected objects  
