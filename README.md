@@ -1,2 +1,8 @@
 # BatchBlenderToUnity
-Batch export selected objects as separate files from Blender to Unity FBX, with correctly applied scale and rotation.
+Python script for Blender 2.8 for batch exporting models to Unity.
+
+* Works with Blender 2.8
+* Exports selected objects as separate files to predefined path (you have to edit the path in the script)
+* Correctly applies transforms (scale and rotation in Unity is as it should be)
+
+I claim no resposibility for corrupted blender files. Back up your project and use it at your own risk.
