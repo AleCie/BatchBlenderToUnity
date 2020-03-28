@@ -8,10 +8,8 @@ Python script for Blender 2.8 for batch exporting models to Unity.
 I claim no resposibility for corrupted blender files. Back up your project and use it at your own risk.
 
 ![Blender](/scr/scr1.png)
-Format: ![Alt Text](url)
 
 ![Folder](/scr/scr2.png)
-Format: ![Alt Text](url)
 
 ![Unity](/scr/scr3.png)
-Format: ![Alt Text](url)
+
