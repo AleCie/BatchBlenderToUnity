@@ -6,7 +6,7 @@ import math
 from mathutils import Matrix
 
 #example path to store files
-path = 'C:/yourpath/'
+path = 'C:/Users/x/Desktop/Low Poly World/Exports/Cars/'
 
 minusNinety = Matrix.Rotation(math.radians(-90.0), 4, 'X');
 plusNinety = Matrix.Rotation(math.radians(90.0), 4, 'X');
@@ -31,7 +31,7 @@ for ob in obs:
     #rotate object -90 on x axis
     ob.matrix_world = minusNinety @ ob.matrix_world
     #apply rotation
-    bpy.ops.object.transform_apply( rotation = True )
+    bpy.ops.object.transform_apply( rotation = True, location = False, scale = True )
     #rotate object 90 on x axis
     ob.matrix_world = plusNinety @ ob.matrix_world
     
@@ -42,8 +42,8 @@ for ob in obs:
     
     #restore location
     ob.location = location
-    #restore rotation
-    bpy.ops.object.transform_apply( rotation = True )
+    #resotre rotation
+    bpy.ops.object.transform_apply( rotation = True, location = False, scale = True )
   
 #reselect originally selected objects  
 for ob in obs:
