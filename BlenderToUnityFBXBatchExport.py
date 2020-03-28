@@ -6,7 +6,7 @@ import math
 from mathutils import Matrix
 
 #example path to store files
-path = 'C:/Users/x/Desktop/Low Poly World/Exports/Trees/'
+path = 'C:/yourpath/'
 
 minusNinety = Matrix.Rotation(math.radians(-90.0), 4, 'X');
 plusNinety = Matrix.Rotation(math.radians(90.0), 4, 'X');
